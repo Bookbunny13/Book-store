@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    font-family: cursive;
+    text-align: center;
+}
+.book-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book{
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid palevioletred;
+}
+.book img{
+    width: 100%;
+}
+.cart{
+    margin-top: 20px;
+    border: 1px solid palevioletred;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
